@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: goldenrod;
+}
+
+.header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+}
+
+.add-btn{
+    padding: 15px;
+    background-color: lime;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.add-section{
+    padding: 20px;
+}
+
+.posts{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerText{
+    font-size: 40px;
+}
+
+.modal{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.467);
+}
+.modal-not-visible{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.467);
+    display: none;
+}
+
+.form{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.form-header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-header-text{
+    font-size: 35px;
+}
+
+.close-btn{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-top: 20px;
+}
+label{
+    font-size: 20px;
+}
+
+.form-group{
+    padding: 20px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 15px 40px;
+    background-color: lime;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.post-list{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.note{
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all .5s;
+    min-width: 20%;
+    min-height: 20%;
+    margin: 30px;
+}
+
+.note:hover{
+    transform: scale(1.2);
+}
+
+.note-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.close{
+    text-decoration: none;
+    color: rgb(81, 8, 8);
+    font-weight: bold;
+}
+
+.note-content{
+    text-transform: lowercase;
+}
